@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+* {
+       margin: 0;
+       padding: 0;
+       outline: 0;
+       box-sizing: border-box;
+}
+
+ol,
+ul {
+       list-style: none;
+}
+
+a {
+       text-decoration: none;
+       display: inline-block;
+       text-transform: capitalize;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+       margin: 0;
+       padding: 0;
+       text-transform: capitalize;
+}
+
+body {
+       font-family: "Open Sans", sans-serif;
+}
+
+.common_button {
+       width: fit-content;
+       font-size: 20px;
+       font-weight: 600;
+       padding: 18px 35px;
+       color: #FFFFFF;
+       background-color: #FD6E0A;
+       border: none;
+       border-radius: 8px;
+
+}
+
+.common_button:hover {
+       background-color: transparent;
+       border: 1px solid #FD6E0A;
+       color: #FD6E0A;
+}
+
+/* ==============================
+       header part start
+================================*/
+.nav_ber {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       margin-top: 13px;
+       z-index: 999;
+}
+
+.nav-item a {
+       font-size: 20px;
+       font-weight: 400;
+       color: #474747;
+       transition: all linear .3s;
+}
+
+.nav-item a:hover {
+       color: #FD6E0A;
+       transform: scale(1.1);
+}
+
+.nav_body {
+       gap: 70px;
+       margin-right: 60px;
+}
+
+.container {
+       max-width: 1144px;
+}
+
+.develop_img {
+       transform: rotate(360deg);
+       position: absolute;
+       left: 1%;
+       bottom: 3%;
+}
+
+/* ==============================
+       header part end
+================================*/
+/* ==============================
+       Banner part start
+================================*/
+#banner {
+       background-color: #FFF8F3;
+       padding: 297px 0 184px;
+       position: relative;
+}
+
+#banner h1 {
+       font-size: 45px;
+       font-weight: 600;
+       color: #474747;
+}
+
+#banner h1 span {
+       display: block;
+       font-size: 85px;
+       font-weight: 700;
+       color: #181818;
+}
+
+#banner p {
+       width: 585px;
+       font-size: 18px;
+       font-weight: 400;
+       color: #757575;
+       line-height: 30px;
+       margin: 20px 0 30px;
+}
+
+.banner_button {
+       display: flex;
+       gap: 30px;
+}
+
+.banner_button span {
+       margin-right: 10px;
+}
+
+.banner_img {
+       position: absolute;
+       right: 0%;
+       bottom: 0%;
+}
+
+.banner_pic {
+       position: absolute;
+       bottom: 0;
+       left: 26%;
+}
+
+/* ==============================
+       Banner part end
+================================*/
+/* ==============================
+       About part start
+================================*/
+#about_us {
+       margin: 130px 0;
+}
+.about_body {
+       background-color: #FFF8F3;
+       padding: 130px;
+       border-radius: 10px;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+}
+.about_body h2 {
+       font-size: 35px;
+       font-weight: 700;
+       color: #181818;
+       text-align: center;
+}
+
+.about_body p {
+       font-size: 18px;
+       font-weight: 400;
+       color: #757575;
+       line-height: 30px;
+       text-align: center;
+       margin: 40px 0;
+}
+
+.about_Cont {
+       text-align: center;
+}
+
+.about_Cont ul {
+       display: flex;
+       justify-content: space-between;
+}
+
+.about_Cont ul li {
+       font-size: 20px;
+       font-weight: 400;
+       color: #757575;
+       line-height: 30px;
+}
+.about_Cont ul li h4{
+       font-size: 20px;
+       font-weight: 400;
+       color: #474747;
+       line-height: 30px;
+}
+/* ==============================
+       About part end
+================================*/
+/* ==============================
+       skill part start
+================================*/
+#skil{
+       margin-bottom: 130px;
+}
+.skill_heading h2{
+       font-size: 35px;
+       font-weight: 700;
+       color: #181818;
+       text-align: center;
+       margin-bottom: 30px;
+}
+.skill_heading p{
+       width: 902px;
+       font-size: 18px;
+       font-weight: 400;
+       color: #757575;
+       line-height: 30px;
+       text-align: center;
+       margin: 0 auto;
+       
+}
+.skil_body{
+       margin-top: 50px;
+}
+.skil_item{
+       padding: 30px 33px 30px 30px;
+       background-color: #FFFFFF;
+       border-radius: 7px;
+       cursor: pointer;
+       box-shadow: 6px 0px 50px 0px rgba(0,0,0,0.1);
+       transition: all linear .3s;
+       -webkit-transition: all linear .3s;
+       -moz-transition: all linear .3s;
+       -ms-transition: all linear .3s;
+       -o-transition: all linear .3s;
+       -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+       -ms-border-radius: 7px;
+       -o-border-radius: 7px;
+}
+.skil_item:hover{
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+}
+
+.skil_item .skil_item_img{
+       height: 44px;
+       width: 44px;
+       
+}
+.skil_item h3{
+       font-size: 20px;
+       font-weight: 700;
+       color: #181818;
+       margin: 30px 0 20px;
+}
+.skil_item p{
+       font-size: 16px;
+       font-weight: 400;
+       color: #757575;
+       line-height: 28px;
+}
+/* ==============================
+       skill part end
+================================*/
+/* ==============================
+       summary part start
+================================*/
+#summary{
+       margin-bottom: 113px;
+}
+.summary_body{
+       margin-top: 113px;
+}
+.summary_heading h2{
+       font-size: 35px;
+       font-weight: 700;
+       color: #181818;
+       text-align: center;
+}
+.summary_item{
+       margin-top: 30px;
+       padding-right: 50px;
+       padding-bottom: 30px;
+       border-bottom: 1px solid #D1D1D1;
+}
+.summary_item h2{
+       font-size: 30px;
+       font-weight: 700;
+       color: #474747;
+       margin-bottom: 30px;
+}
+.summary_item h3{
+       font-size: 25px;
+       font-weight: 700;
+       color: #474747;
+}
+.summary_item span{
+       font-size: 20px;
+       font-weight: 600;
+       color: #757575;
+       display: block;
+       margin-top: 10px;
+}
+.summary_item p{
+       font-size: 16px;
+       font-weight: 400;
+       color: #757575;
+       line-height: 28px;
+       margin-top: 20px;
+}
+.sum_btn {
+       margin: 50px auto 0;
+}
+.sum_body .summary_item:last-child{
+       border: none;
+}
+/* ==============================
+       summary part end
+================================*/
+/* ==============================
+       footer part start
+================================*/
+#footer{
+       padding: 130px 0;
+       background-color: #FFF8F3;
+}
+#footer h2{
+       font-size: 35px;
+       font-weight: 700;
+       color: #181818;
+}
+.footer_con p{
+       font-size: 16px;
+       font-weight: 400;
+       color: #474747;
+       line-height: 28px;
+       margin: 20px 0 30px;
+}
+.foot_icon{
+       display: flex;
+       gap: 24px;
+}
+.foot_icon span a{
+       font-size: 30px;
+       color: #FD6E0A;
+       transition: all linear .3s;
+       -webkit-transition: all linear .3s;
+       -moz-transition: all linear .3s;
+       -ms-transition: all linear .3s;
+       -o-transition: all linear .3s;
+}
+.foot_icon span a:hover{
+       color: #181818;
+       transform: scale(1.1);
+       -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+       -ms-transform: scale(1.1);
+       -o-transform: scale(1.1);
+}
+.foot_message input{
+       border: none;
+       width: 100%;
+       height: 64px;
+       margin-top: 24px;
+       padding-left: 20px;
+       border-radius: 8px;
+       -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+       -ms-border-radius: 8px;
+       -o-border-radius: 8px;
+}
+.foot_message ::placeholder{
+       font-size: 16px;
+       font-weight: 400;
+       color: #757575;
+       line-height: 28px;
+}
+.Foot_text{
+       height: 180px;
+       width: 100%;
+       padding-left: 20px;
+       padding-top: 10px;
+       border: none;
+       resize: none;
+       margin-top: 24px;
+       margin-bottom: 24px;
+       border-radius: 8px;
+       -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+       -ms-border-radius: 8px;
+       -o-border-radius: 8px;
+}
+/* ==============================
+       footer part end
+================================*/
+/* ==============================
+       header part start
+================================*/
+/* ==============================
+       header part end
+================================*/
+/* ==============================
+       header part start
+================================*/
+/* ==============================
+       header part end
+================================*/
+/* ==============================
+       header part start
+================================*/
+/* ==============================
+       header part end
+================================*/
+/* ==============================
+       header part start
+================================*/
+/* ==============================
+       header part end
+================================*/
+/* ==============================
+       header part start
+================================*/
+/* ==============================
+       header part end
+================================*/
